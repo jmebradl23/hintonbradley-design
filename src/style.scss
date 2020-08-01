@@ -533,6 +533,10 @@ form {
             top: 250px;
             background-color: $color-dark;
             transition: 0.5s ease;
+
+            li.half {
+                width: 33%;
+            }
         }
 
         .card-description, .card-subtext {
@@ -604,10 +608,6 @@ form {
         .half {
             width: 200px;
             // box-sizing: border-box;
-        }
-
-        .third {
-            width: 33%;
         }
 
         input {
