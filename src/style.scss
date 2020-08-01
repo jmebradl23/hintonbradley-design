@@ -215,6 +215,10 @@ nav {
         display: inline-block;
         width: 49%;
     }
+
+    li.third {
+        width: 49%;
+    }
 }
 
 .cards-container {
@@ -600,6 +604,10 @@ form {
         .half {
             width: 200px;
             // box-sizing: border-box;
+        }
+
+        .third {
+            width: 33%;
         }
 
         input {
