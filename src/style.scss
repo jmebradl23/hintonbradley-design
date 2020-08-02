@@ -535,7 +535,7 @@ form {
             transition: 0.5s ease;
 
             li.third {
-                width: 33%;
+                width: 32%;
             }
         }
 
@@ -563,6 +563,17 @@ form {
 
         .card-btns {
             margin: 0;
+
+            .btn {
+                box-shadow: none;
+                background-color: $color-dark;
+                border: 3px solid $color-secondary;
+                transition: 0.5s;
+            }
+
+            .btn:hover {
+                background-color: $color-secondary;
+            }
         }
     }
 
@@ -612,6 +623,20 @@ form {
 
         input {
             box-sizing: border-box;
+        }
+    }
+
+    .netlify-form {
+        .btn {
+            box-shadow: none;
+            background-color: $color-dark;
+            border: 3px solid $color-secondary;
+            transition: 0.5s;
+            line-height: 35px;
+        }
+
+        .btn:hover {
+            background-color: $color-secondary;
         }
     }
     // end FORM
