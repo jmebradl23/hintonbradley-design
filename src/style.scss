@@ -40,8 +40,8 @@ li {
 }
 
 .txt-shadow {
-  text-shadow: 2px 2px #080A00;
-}
+    text-shadow: 8px 8px 12px #080A00;
+  }
 // end CLASSES
 
 // TOP 
@@ -245,6 +245,12 @@ nav {
     .emaily-img {
         background-image: url('./img/emaily.png');
         background-position: 5px -70px;
+        background-size: cover;
+    }
+
+    .epoch-img {
+        background-image: url('./img/epoch.jpg');
+        background-position: 5px 0;
         background-size: cover;
     }
 
@@ -564,18 +570,18 @@ form {
 
         .card-btns {
             margin: 0;
-
-            .btn {
-                box-shadow: none;
-                background-color: $color-dark;
-                border: 3px solid $color-secondary;
-                transition: 0.5s;
-            }
-
-            .btn:hover {
-                background-color: $color-secondary;
-            }
         }
+    }
+
+    .card-btns .btn {
+        background: $color-dark;
+        border: 2px solid $color-secondary;
+        box-shadow: none;
+    }
+
+    .card-btns .btn:hover {
+        background: $color-secondary;
+        transition: 0.5s ease-in-out;
     }
 
     .card:hover .card-text {
@@ -624,20 +630,6 @@ form {
 
         input {
             box-sizing: border-box;
-        }
-    }
-
-    .netlify-form {
-        .btn {
-            box-shadow: none;
-            background-color: $color-dark;
-            border: 3px solid $color-secondary;
-            transition: 0.5s;
-            line-height: 35px;
-        }
-
-        .btn:hover {
-            background-color: $color-secondary;
         }
     }
     // end FORM
