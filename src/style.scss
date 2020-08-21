@@ -190,6 +190,11 @@ nav {
 
     .card-text {
         padding: 10px;
+
+        li.third {
+            width: 49%;
+            display: inline-block;
+        }
     }
 
     h1, h2, p {
@@ -214,11 +219,6 @@ nav {
     li.half {
         display: inline-block;
         width: 49%;
-    }
-
-    li.third {
-        width: 49%;
-        display: inline-block;
     }
 }
 
